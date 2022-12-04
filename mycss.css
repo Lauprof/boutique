@@ -1,0 +1,116 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+
+
+}
+body{
+	background-color: rgba(34,150,231,0.4);
+}
+.nav{
+	background-color: green;
+	height: 80px;
+	max-width: 100%;
+}
+.nav a{
+	float: right;
+	padding: 21px;
+	text-decoration: none;
+	color: white;
+	font-family: cursive;
+
+
+
+}
+h1{
+	font-weight: bolder;
+	background-color: green;
+	max-width: 100%;
+	font-size: xx-large;
+	text-align: center;
+	text-shadow:  2.5px 1.6px red;
+	color: white;
+	
+ 
+}
+
+
+
+
+
+.wrapper::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+  max-width: 49%;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 2px;
+  margin:4px;
+
+  background-color: rgba(242,11,5,0.44);
+}
+.column img{
+	max-width: 99%;
+	
+
+
+}
+
+.footer {
+  background-color: #004422;
+  color: white;
+   max-width: 100%;
+  padding: 15px;
+}
+.footer ol{
+	list-style-type: none;
+}
+.footer ol> li{
+	padding: 12px 10px;
+	text-align: center;
+	font-family: cursive;
+	font-variant: small-caps;
+	font-weight: bolder;
+	font-size: 15px;
+	
+
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  max-width: 90%;
+  position: relative;
+}
+
+th, td {
+  padding: 15px;
+}
+tr:nth-child(odd){
+	background-color: orange;
+	color: white;
+}
+tr:nth-child(even){
+	background-color: brown;
+	color: white;
+}
+
+@media screen and (max-width: 768px){
+table{
+	max-width: 30%;
+}
+
+
+
+}
