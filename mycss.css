@@ -107,16 +107,24 @@ tr:nth-child(even){
 }
 
 @media screen and (max-width: 768px){
-table{
-	max-width: 30%;
-
+th,td{
+	padding: 4px;
 }
+table{
+	max-width: auto;
+}
+
 .column{
 	float: none;
 	max-width: 100%;
 	padding: 4px;
 }
-
+nav a {
+	padding: 10px;
+}
+h1{
+	max-width: auto;
+}
 
 
 }
