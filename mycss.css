@@ -109,6 +109,12 @@ tr:nth-child(even){
 @media screen and (max-width: 768px){
 table{
 	max-width: 30%;
+
+}
+.column{
+	float: none;
+	max-width: 100%;
+	padding: 4px;
 }
 
 
