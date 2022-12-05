@@ -108,7 +108,7 @@ tr:nth-child(even){
 
 @media screen and (max-width: 768px){
 th,td{
-	padding: 4px;
+	padding: 0px;
 }
 table{
 	max-width: auto;
